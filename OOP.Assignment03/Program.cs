@@ -435,7 +435,23 @@
 
 
 
+            #region Question22
 
+            /// 22) Create one ExpressShipment.
+            ///
+            /// DeliveryAddress address2 =
+            ///     new DeliveryAddress("Giza", "Dokki Street", 20);
+            ///
+            /// ExpressShipment expressShipment =
+            ///     new ExpressShipment(
+            ///         "SH002",
+            ///         "Mobile Phone",
+            ///         2,
+            ///         60,
+            ///         address2,
+            ///         30);
+
+            #endregion
 
 
 
