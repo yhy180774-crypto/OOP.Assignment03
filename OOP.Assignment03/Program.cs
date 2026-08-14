@@ -518,7 +518,31 @@
             #endregion
 
 
+            #region Question27
 
+            /// 27) Demonstrate both versions of UpdateWeight().
+            ///
+            /// Console.WriteLine("Original Weight: " + standardShipment.Weight + " KG");
+            ///
+            /// standardShipment.UpdateWeight(5);
+            ///
+            /// Console.WriteLine("Updated Weight: " + standardShipment.Weight + " KG");
+            ///
+            /// standardShipment.UpdateWeight(5, 0.5);
+            ///
+            /// Console.WriteLine(
+            ///     "Updated Weight After Packing: "
+            ///     + standardShipment.Weight + " KG");
+            ///
+            /// // First call:
+            /// // Weight becomes 5 KG.
+            ///
+            /// // Second call:
+            /// // Weight becomes 5 + 0.5 = 5.5 KG.
+            ///
+            /// // This demonstrates Method Overloading.
+
+            #endregion
 
 
 
