@@ -301,7 +301,28 @@
             #endregion
 
 
+            #region Question15
 
+            /// 15) Modify PrintAllShipments() to loop through the Shipment array
+            /// and simply call shipment.PrintShipment().
+            ///
+            /// public void PrintAllShipments()
+            /// {
+            ///     foreach (Shipment shipment in shipments)
+            ///     {
+            ///         if (shipment != null)
+            ///         {
+            ///             shipment.PrintShipment();
+            ///             Console.WriteLine();
+            ///         }
+            ///     }
+            /// }
+            ///
+            /// // No manual type-checking is required.
+            /// // The correct PrintShipment() is selected automatically
+            /// // using Dynamic Binding.
+
+            #endregion
 
 
 
