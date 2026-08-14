@@ -416,6 +416,22 @@
 
 
 
+            #region Question21
+
+            /// 21) Create one StandardShipment.
+            ///
+            /// DeliveryAddress address1 =
+            ///     new DeliveryAddress("Cairo", "Tahrir Street", 15);
+            ///
+            /// StandardShipment standardShipment =
+            ///     new StandardShipment(
+            ///         "SH001",
+            ///         "Laptop",
+            ///         3,
+            ///         80,
+            ///         address1);
+
+            #endregion
 
 
 
