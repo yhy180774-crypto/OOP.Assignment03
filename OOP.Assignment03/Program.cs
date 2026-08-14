@@ -261,7 +261,27 @@
 
 
 
+            #region Question13
 
+            /// 13) Create a Driver class and add a Driver property to DeliveryCenter.
+            /// This represents Aggregation.
+            ///
+            /// public class Driver
+            /// {
+            ///     public int DriverId { get; set; }
+            ///     public string FullName { get; set; }
+            ///     public string PhoneNumber { get; set; }
+            /// }
+            ///
+            /// public class DeliveryCenter
+            /// {
+            ///     public Driver Driver { get; set; }
+            /// }
+            ///
+            /// // The Driver can exist independently from DeliveryCenter.
+            /// // Therefore, this is Aggregation.
+
+            #endregion
 
 
 
