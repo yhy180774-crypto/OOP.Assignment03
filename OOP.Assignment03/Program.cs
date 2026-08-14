@@ -346,7 +346,27 @@
 
             #endregion
 
+            #region Question17
 
+            /// 17) Create a sealed CompletedShipment class that inherits from Shipment.
+            ///
+            /// public sealed class CompletedShipment : Shipment
+            /// {
+            ///     public CompletedShipment(
+            ///         string trackingCode,
+            ///         string description,
+            ///         double weight,
+            ///         decimal deliveryFee,
+            ///         DeliveryAddress destination)
+            ///         : base(trackingCode, description, weight, deliveryFee, destination)
+            ///     {
+            ///     }
+            /// }
+            ///
+            /// // The sealed keyword prevents another class from inheriting
+            /// // from CompletedShipment.
+
+            #endregion
 
 
 
