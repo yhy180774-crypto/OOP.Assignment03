@@ -202,6 +202,22 @@
 
 
 
+            #region Question10
+
+            /// 10) Override EstimatedCost in ExpressShipment.
+            ///
+            /// public override decimal EstimatedCost
+            /// {
+            ///     get
+            ///     {
+            ///         return DeliveryFee + ((decimal)Weight * 5) + ExtraFee;
+            ///     }
+            /// }
+            ///
+            /// // ExpressShipment adds ExtraFee to the normal shipment cost.
+
+            #endregion
+
 
 
 
