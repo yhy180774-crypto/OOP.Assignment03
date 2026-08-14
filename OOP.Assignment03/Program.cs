@@ -476,7 +476,15 @@
 
 
 
+            #region Question24
 
+            /// 24) Add all shipments to the DeliveryCenter.
+            ///
+            /// center.AddShipment(standardShipment);
+            /// center.AddShipment(expressShipment);
+            /// center.AddShipment(internationalShipment);
+
+            #endregion
 
 
 
