@@ -58,7 +58,7 @@
 
             /// 03) What is the purpose of the sealed keyword when applied to a class?
             ///
-            /// Answer:
+            ///
             /// The sealed keyword prevents other classes from inheriting from the class.
             ///
             /// Example:
@@ -69,6 +69,33 @@
             ///
             /// // CompletedShipment can inherit from Shipment.
             /// // But another class cannot inherit from CompletedShipment.
+
+            #endregion
+
+
+
+            #region Question04
+
+            /// 04) What is the difference between a sealed class and a sealed method?
+            ///
+            /// 
+            /// A sealed class prevents other classes from inheriting from it.
+            ///
+            /// A sealed method prevents child classes from overriding that method again.
+            ///
+            /// Example:
+            ///
+            /// public sealed class CompletedShipment : Shipment
+            /// {
+            /// }
+            ///
+            /// public sealed override string GenerateCustomsReport()
+            /// {
+            ///     return "Customs Report";
+            /// }
+            ///
+            /// // The sealed class cannot be inherited.
+            /// // The sealed method cannot be overridden again.
 
             #endregion
 
