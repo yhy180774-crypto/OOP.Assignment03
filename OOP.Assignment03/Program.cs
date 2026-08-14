@@ -121,7 +121,22 @@
             #endregion
 
 
+            #region Question06
 
+            /// 06) Convert EstimatedCost to a virtual property so each derived class
+            /// can calculate its own cost.
+            ///
+            /// public virtual decimal EstimatedCost
+            /// {
+            ///     get
+            ///     {
+            ///         return DeliveryFee + ((decimal)Weight * 5);
+            ///     }
+            /// }
+            ///
+            /// // The property is virtual so derived classes can override it.
+
+            #endregion
 
 
 
