@@ -284,7 +284,21 @@
             #endregion
 
 
+            #region Question14
 
+            /// 14) Every Shipment owns exactly one DeliveryAddress.
+            /// This represents Composition.
+            ///
+            /// public class Shipment
+            /// {
+            ///     public DeliveryAddress Destination { get; set; }
+            /// }
+            ///
+            /// // DeliveryAddress is used as part of the Shipment.
+            /// // The Shipment has its own destination address.
+            /// // Therefore, this represents Composition.
+
+            #endregion
 
 
 
