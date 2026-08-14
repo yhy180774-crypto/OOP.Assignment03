@@ -140,7 +140,23 @@
 
 
 
+            #region Question07
 
+            /// 07) Convert PrintShipment() to a virtual method so every child class
+            /// can override it.
+            ///
+            /// public virtual void PrintShipment()
+            /// {
+            ///     Console.WriteLine("Tracking Code: " + TrackingCode);
+            ///     Console.WriteLine("Description: " + Description);
+            ///     Console.WriteLine("Weight: " + Weight + " KG");
+            ///     Console.WriteLine("Delivery Fee: " + DeliveryFee + " EGP");
+            ///     Console.WriteLine("Estimated Cost: " + EstimatedCost + " EGP");
+            /// }
+            ///
+            /// // The virtual keyword allows derived classes to override this method.
+
+            #endregion
 
 
 
