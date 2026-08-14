@@ -545,7 +545,32 @@
             #endregion
 
 
+            #region Question28
 
+            /// 28) Build a Shipment[] holding mixed shipment types
+            /// and print all of them in a loop.
+            ///
+            /// Shipment[] shipments =
+            /// {
+            ///     standardShipment,
+            ///     expressShipment,
+            ///     internationalShipment
+            /// };
+            ///
+            /// foreach (Shipment shipment in shipments)
+            /// {
+            ///     shipment.PrintShipment();
+            ///     Console.WriteLine();
+            /// }
+            ///
+            /// // The array type is Shipment[].
+            /// // The actual objects have different types.
+            /// // The correct overridden PrintShipment() method is called
+            /// // automatically at runtime.
+            ///
+            /// // This demonstrates Polymorphism and Dynamic Binding.
+
+            #endregion
 
 
 
