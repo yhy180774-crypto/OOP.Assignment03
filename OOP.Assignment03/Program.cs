@@ -489,7 +489,17 @@
 
 
 
+            #region Question25
 
+            /// 25) Print all shipments using PrintAllShipments().
+            ///
+            /// center.PrintAllShipments();
+            ///
+            /// // The method uses the Shipment array.
+            /// // Dynamic Binding automatically calls the correct PrintShipment()
+            /// // for StandardShipment, ExpressShipment, and InternationalShipment.
+
+            #endregion
 
 
 
