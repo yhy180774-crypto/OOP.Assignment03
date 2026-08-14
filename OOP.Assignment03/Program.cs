@@ -181,7 +181,24 @@
 
             #endregion
 
+            #region Question09
 
+            /// 09) Use constructor chaining so every derived class calls the base Shipment constructor.
+            ///
+            /// public StandardShipment(
+            ///     string trackingCode,
+            ///     string description,
+            ///     double weight,
+            ///     decimal deliveryFee,
+            ///     DeliveryAddress destination)
+            ///     : base(trackingCode, description, weight, deliveryFee, destination)
+            /// {
+            /// }
+            ///
+            /// // base(...) calls the constructor of the Shipment class.
+            /// // This avoids repeating initialization code.
+
+            #endregion
 
 
 
