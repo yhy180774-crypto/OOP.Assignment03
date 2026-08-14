@@ -592,6 +592,28 @@
 
             #endregion
 
+
+            #region Question30
+
+            /// 30) Demonstrate the sealed method.
+            ///
+            /// PriorityInternationalShipment priorityShipment =
+            ///     new PriorityInternationalShipment(
+            ///         "SH004",
+            ///         "Smart TV",
+            ///         10,
+            ///         150,
+            ///         address3,
+            ///         "France",
+            ///         120);
+            ///
+            /// Console.WriteLine(
+            ///     priorityShipment.GenerateCustomsReport());
+            ///
+            /// // GenerateCustomsReport() is overridden and marked sealed.
+            /// // Therefore, another child class cannot override it again.
+
+            #endregion
         }
     }
 }
