@@ -99,6 +99,66 @@
 
             #endregion
 
+            #region Question05
+
+            /// 05) Can a sealed method be overridden? Why?
+            ///
+            /// Answer:
+            /// No, a sealed method cannot be overridden.
+            ///
+            /// The sealed keyword prevents further child classes from overriding
+            /// the method.
+            ///
+            /// Example:
+            ///
+            /// public sealed override string GenerateCustomsReport()
+            /// {
+            ///     return "Priority Customs Report";
+            /// }
+            ///
+            /// // Another child class cannot override GenerateCustomsReport() again.
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
