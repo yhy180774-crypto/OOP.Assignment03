@@ -32,7 +32,27 @@
             #endregion
 
 
+            #region Question02
 
+            /// 02) What is the difference between Static Binding and Dynamic Binding?
+            ///
+            /// Answer:
+            /// Static Binding means that the method to execute is determined at compile time.
+            ///
+            /// Dynamic Binding means that the method to execute is determined at runtime
+            /// according to the actual object type.
+            ///
+            /// Example:
+            ///
+            /// Shipment shipment = new ExpressShipment();
+            /// shipment.PrintShipment();
+            ///
+            /// // The variable type is Shipment.
+            /// // The actual object type is ExpressShipment.
+            /// // ExpressShipment.PrintShipment() is called at runtime.
+            /// // This is Dynamic Binding.
+
+            #endregion
 
 
 
