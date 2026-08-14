@@ -573,7 +573,24 @@
             #endregion
 
 
+            #region Question29
 
+            /// 29) Demonstrate the sealed class.
+            ///
+            /// CompletedShipment completedShipment =
+            ///     new CompletedShipment(
+            ///         "SH005",
+            ///         "Completed Package",
+            ///         2,
+            ///         50,
+            ///         address1);
+            ///
+            /// completedShipment.PrintShipment();
+            ///
+            /// // CompletedShipment is a sealed class.
+            /// // Therefore, no other class can inherit from it.
+
+            #endregion
 
         }
     }
