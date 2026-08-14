@@ -54,7 +54,23 @@
 
             #endregion
 
+            #region Question03
 
+            /// 03) What is the purpose of the sealed keyword when applied to a class?
+            ///
+            /// Answer:
+            /// The sealed keyword prevents other classes from inheriting from the class.
+            ///
+            /// Example:
+            ///
+            /// public sealed class CompletedShipment : Shipment
+            /// {
+            /// }
+            ///
+            /// // CompletedShipment can inherit from Shipment.
+            /// // But another class cannot inherit from CompletedShipment.
+
+            #endregion
 
         }
     }
