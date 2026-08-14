@@ -503,7 +503,19 @@
 
 
 
+            #region Question26
 
+            /// 26) Call DeliveryHelper.PrintShipmentDetails() for each shipment.
+            ///
+            /// DeliveryHelper.PrintShipmentDetails(standardShipment);
+            ///
+            /// DeliveryHelper.PrintShipmentDetails(expressShipment);
+            ///
+            /// DeliveryHelper.PrintShipmentDetails(internationalShipment);
+            ///
+            /// // The correct PrintShipment() method is called automatically.
+
+            #endregion
 
 
 
