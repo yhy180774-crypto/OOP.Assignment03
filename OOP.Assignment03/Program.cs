@@ -455,7 +455,24 @@
 
 
 
+            #region Question23
 
+            /// 23) Create one InternationalShipment.
+            ///
+            /// DeliveryAddress address3 =
+            ///     new DeliveryAddress("Cairo", "Nasr City", 30);
+            ///
+            /// InternationalShipment internationalShipment =
+            ///     new InternationalShipment(
+            ///         "SH003",
+            ///         "Television",
+            ///         8,
+            ///         120,
+            ///         address3,
+            ///         "Germany",
+            ///         100);
+
+            #endregion
 
 
 
