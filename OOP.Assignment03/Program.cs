@@ -325,7 +325,26 @@
             #endregion
 
 
+            #region Question16
 
+            /// 16) Create a DeliveryHelper class with a static PrintShipmentDetails()
+            /// method that receives a Shipment.
+            ///
+            /// public static class DeliveryHelper
+            /// {
+            ///     public static void PrintShipmentDetails(Shipment shipment)
+            ///     {
+            ///         if (shipment != null)
+            ///         {
+            ///             shipment.PrintShipment();
+            ///         }
+            ///     }
+            /// }
+            ///
+            /// // The method accepts the parent type Shipment.
+            /// // The correct overridden method is called automatically.
+
+            #endregion
 
 
 
