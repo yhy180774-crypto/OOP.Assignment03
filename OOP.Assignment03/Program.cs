@@ -219,12 +219,45 @@
             #endregion
 
 
+            #region Question11
+
+            /// 11) Override EstimatedCost in InternationalShipment.
+            ///
+            /// public override decimal EstimatedCost
+            /// {
+            ///     get
+            ///     {
+            ///         return DeliveryFee
+            ///              + ((decimal)Weight * 5)
+            ///              + CustomsFee;
+            ///     }
+            /// }
+            ///
+            /// // InternationalShipment adds CustomsFee to the normal shipment cost.
+
+            #endregion
 
 
 
 
+            #region Question12
 
+            /// 12) Override PrintShipment() in every derived class.
+            ///
+            /// public override void PrintShipment()
+            /// {
+            ///     Console.WriteLine("Express Shipment");
+            ///     Console.WriteLine("Tracking Code: " + TrackingCode);
+            ///     Console.WriteLine("Description: " + Description);
+            ///     Console.WriteLine("Weight: " + Weight + " KG");
+            ///     Console.WriteLine("Delivery Fee: " + DeliveryFee + " EGP");
+            ///     Console.WriteLine("Extra Fee: " + ExtraFee + " EGP");
+            ///     Console.WriteLine("Estimated Cost: " + EstimatedCost + " EGP");
+            /// }
+            ///
+            /// // Each child class can print its own additional information.
 
+            #endregion
 
 
 
