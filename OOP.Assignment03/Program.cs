@@ -369,7 +369,26 @@
             #endregion
 
 
+            #region Question18
 
+            /// 18) In InternationalShipment, add a virtual GenerateCustomsReport() method.
+            /// In PriorityInternationalShipment, override it and make the override sealed.
+            ///
+            /// public virtual string GenerateCustomsReport()
+            /// {
+            ///     return $"Customs Report: {TrackingCode} - {DestinationCountry}";
+            /// }
+            ///
+            /// public sealed override string GenerateCustomsReport()
+            /// {
+            ///     return $"Priority Customs Report: {TrackingCode} - {DestinationCountry}";
+            /// }
+            ///
+            /// // virtual allows overriding.
+            /// // override changes the implementation.
+            /// // sealed prevents further overriding.
+
+            #endregion
         }
     }
 }
