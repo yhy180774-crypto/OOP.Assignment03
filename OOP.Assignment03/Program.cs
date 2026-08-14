@@ -159,7 +159,27 @@
             #endregion
 
 
+            #region Question08
 
+            /// 08) Add two overloaded versions of the weight-update method.
+            ///
+            /// public void UpdateWeight(double newWeight)
+            /// {
+            ///     if (newWeight > 0)
+            ///         Weight = newWeight;
+            /// }
+            ///
+            /// public void UpdateWeight(double newWeight, double extraPackingWeight)
+            /// {
+            ///     if (newWeight > 0 && extraPackingWeight >= 0)
+            ///         Weight = newWeight + extraPackingWeight;
+            /// }
+            ///
+            /// // The first method updates the weight normally.
+            /// // The second method updates the weight after adding packing weight.
+            /// // This is Method Overloading.
+
+            #endregion
 
 
 
