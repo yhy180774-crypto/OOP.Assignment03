@@ -389,6 +389,64 @@
             /// // sealed prevents further overriding.
 
             #endregion
+
+
+            #region Question19
+
+            /// 19) Create a Driver.
+            ///
+            /// Driver driver = new Driver(
+            ///     1,
+            ///     "Ahmed Mohamed",
+            ///     "01012345678");
+
+            #endregion
+
+
+
+            #region Question20
+
+            /// 20) Create a DeliveryCenter and assign the Driver to it.
+            ///
+            /// DeliveryCenter center = new DeliveryCenter();
+            ///
+            /// center.Driver = driver;
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
